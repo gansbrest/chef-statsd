@@ -57,7 +57,7 @@ end
 
 user "statsd" do
   system true
-  shell "/bin/bash"
+  shell "/bin/false"
 end
 
 file node["statsd"]["log_file"] do
